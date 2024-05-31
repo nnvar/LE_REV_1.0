@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function EatForm() {
+function EatForm(props) {
     const[input, setInput] = useState('');
 
     const handleChange = e => {
@@ -10,10 +10,10 @@ function EatForm() {
     const handleSubmit = e => {
         e.preventDefault();
 
-        //props.onSubmit({
-        //    id: Math.floor(Math.random() * 1000),
-        //    text: input
-       // });
+        props.onSubmit({
+            id: Math.floor(Math.random() * 1000),
+            text: input
+        });
 
         setInput('');
     }

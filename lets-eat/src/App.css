@@ -8,10 +8,10 @@
   
   body {
     background: linear-gradient(
-      90deg,
-      rgba(48, 16, 255, 1) 0%,
-      rgba(100, 115, 255, 1) 100%
-    );
+        90deg,
+        #72A0C1 0%,
+        #5D8AA8 100%
+      );
   }
   .eat-app {
     display: flex;
@@ -46,7 +46,7 @@
   .eat-input {
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid #5d0cff;
+    border: 2px solid white;
     outline: none;
     width: 320px;
     background: transparent;
@@ -65,15 +65,16 @@
     outline: none;
     background: linear-gradient(
       90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%
+      #003262 0%,
+      #00009C 100%
     );
     color: #fff;
     text-transform: capitalize;
   }
   
+  
   .eat-input.edit {
-    border: 2px solid #149fff;
+    border: 2px solid #f6f7f8;
   }
   
   .eat-button.edit {
@@ -99,44 +100,80 @@
     color: #fff;
     background: linear-gradient(
       90deg,
-      rgba(255, 118, 20, 1) 0%,
-      rgba(255, 84, 17, 1) 100%
+      #003262 0%,
+      #00009C 100%
     );
   
     padding: 16px;
     border-radius: 5px;
-    width: 90%;
+    width: 60%;
   }
   
   .place-row:nth-child(4n + 1) {
     background: linear-gradient(
       90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%
+      #224C98 0%,
+      #CCCCFF 100%
     );
   }
   
   .place-row:nth-child(4n + 2) {
     background: linear-gradient(
       90deg,
-      rgba(255, 12, 241, 1) 0%,
-      rgba(250, 0, 135, 1) 100%
+      #0000CD 0%,
+      #A4DDED 100%
     );
   }
   
   .place-row:nth-child(4n + 3) {
     background: linear-gradient(
       90deg,
-      rgba(20, 159, 255, 1) 0%,
+      #191970 0%,
       rgba(17, 122, 255, 1) 100%
     );
   }
+
+ .randomButton {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      #003262 0%,
+      #00009C 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+
+ }
+
+ .randomeReturn {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 50px;
+    color: white;
+    
+ }
+
+ .randomContainer {
+    display: flex;
+    justify-content: space-evenly; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 50px;
+ }
+
+
   
   .icons {
     display: flex;
     align-items: center;
     font-size: 24px;
     cursor: pointer;
+    
+    
   }
   
   .delete-icon {
@@ -147,3 +184,4 @@
   .edit-icon {
     color: #fff;
   }
+

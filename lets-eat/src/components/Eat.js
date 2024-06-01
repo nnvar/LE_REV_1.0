@@ -23,8 +23,10 @@ function Eat({places, completePlace, removePlace, updatePlace}) {
     }
 
   return places.map((place, index) => (
-    <div className={place.isComplete ? 'place-row complete' : 
-        'place-row'} key={index}>
+
+    
+        <div className={place.isComplete ? 'place-row complete' : 
+        'place-row'} key={index} >
         
         <div key={place.id} onClick={() => completePlace(place.id)}>
             {place.text}

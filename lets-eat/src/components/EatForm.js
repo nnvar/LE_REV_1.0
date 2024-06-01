@@ -6,7 +6,7 @@ function EatForm(props) {
     const inputRef = useRef(null)
 
     useEffect(() => {
-      inputRef.current.focus()
+      //inputRef.current.focus()
     })
 
 

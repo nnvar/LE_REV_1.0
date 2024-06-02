@@ -32,6 +32,13 @@
     font-size: 24px;
     text-align: center;
   }
+
+  h3 {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
   
   .complete {
     text-decoration: line-through;
@@ -153,9 +160,14 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    margin-top: 50px;
-    color: white;
-    
+
+    border-radius: 4px 0 0 4px;
+    border: 2px solid white;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+   
  }
 
  .randomContainer {
@@ -184,4 +196,6 @@
   .edit-icon {
     color: #fff;
   }
+
+
 

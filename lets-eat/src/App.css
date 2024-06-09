@@ -52,7 +52,7 @@
   
   .eat-input {
     padding: 14px 32px 14px 16px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 25px;
     border: 2px solid white;
     outline: none;
     width: 320px;
@@ -67,7 +67,7 @@
   .eat-button {
     padding: 16px;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 25px;
     cursor: pointer;
     outline: none;
     background: linear-gradient(
@@ -91,6 +91,7 @@
       rgba(17, 122, 255, 1) 100%
     );
     padding: 16px 22px;
+
   }
   
   .eat-container {
@@ -143,7 +144,7 @@
  .randomButton {
     padding: 16px;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 25px;
     cursor: pointer;
     outline: none;
     background: linear-gradient(
@@ -157,17 +158,16 @@
  }
 
  .randomeReturn {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-
-    border-radius: 4px 0 0 4px;
-    border: 2px solid white;
-    outline: none;
-    width: 320px;
-    background: transparent;
-    color: #fff;
-   
+  padding: 14px 32px 14px 16px;
+  border-radius: 25px;
+  border: 2px solid white;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
  }
 
  .randomContainer {
